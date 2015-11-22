@@ -64,6 +64,10 @@
                         <label width="1" alignment="left" text="Label" textAlignment="right" numberOfLines="0" id="eKg-j0-3LO"/>
                         <map height="100" alignment="left" id="fAL-YJ-1Ha"/>
                     </items>
+                    <connections>
+                        <outlet property="alertLabel" destination="eKg-j0-3LO" id="qm9-TV-Ife"/>
+                        <outlet property="locationMap" destination="fAL-YJ-1Ha" id="AO5-9g-B53"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
