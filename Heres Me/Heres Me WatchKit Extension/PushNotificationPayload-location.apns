@@ -1,0 +1,18 @@
+{
+"aps": {
+        "alert": {
+            "body": "Already downa Art Callidge",
+            "title": "Location Update",
+            "locationCoord": "54.603264, -5.929300"
+        },
+        "category": "locationNotification"
+    },
+    "WatchKit Simulator Actions": [{
+            "title": "Post Location",
+            "identifier": "postLocationAction"
+        }, {
+            "title": "Reply",
+            "identifier": "locationReplyAction"
+        }
+    ]
+}

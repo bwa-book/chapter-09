@@ -77,12 +77,13 @@
 		58457CAB1C0246EA00360D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58457CAD1C0246EA00360D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58457CB21C0246EA00360D4A /* Heres Me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Heres Me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58457CB81C0246EA00360D4A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		58457CB91C0246EA00360D4A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		58457CBB1C0246EA00360D4A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		58457CBD1C0246EA00360D4A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		58457CBF1C0246EA00360D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58457CC11C0246EA00360D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58457CCF1C02526300360D4A /* PushNotificationPayload-status.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PushNotificationPayload-status.apns"; sourceTree = "<group>"; };
+		58457CD01C02527700360D4A /* PushNotificationPayload-location.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PushNotificationPayload-location.apns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +163,8 @@
 		58457CB71C0246EA00360D4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				58457CB81C0246EA00360D4A /* PushNotificationPayload.apns */,
+				58457CCF1C02526300360D4A /* PushNotificationPayload-status.apns */,
+				58457CD01C02527700360D4A /* PushNotificationPayload-location.apns */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

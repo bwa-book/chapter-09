@@ -1,0 +1,15 @@
+{
+"aps": {
+        "alert": {
+            "body": "Headin downa snooks",
+            "title": "Status Update"
+        },
+        "category": "statusNotification"
+    },
+    "WatchKit Simulator Actions”: [
+        {
+            "title": "Reply",
+            "identifier": "statusReplyAction"
+        }
+    ]
+}
