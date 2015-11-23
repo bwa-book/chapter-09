@@ -15,4 +15,24 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
         // Use this method to pause ongoing tasks, disable timers, etc.
     }
 
+    func handleActionWithIdentifier(identifier: String?,
+        forRemoteNotification remoteNotification: [NSObject : AnyObject]) {
+        guard let identifier = identifier else { return }
+        switch (identifier) {
+            case "statusReplyAction":
+                handleStatusReplyForNotification(remoteNotification)
+            case "locationReplyAction":
+                handleLocationReplyForNotification(remoteNotification)
+            case "postLocationAction":
+                handlePostLocationForNotification(remoteNotification)
+            default:
+                handleGeneralTapForNotification(remoteNotification)
+        }
+    }
+
+    func handleStatusReplyForNotification(notification: [NSObject : AnyObject]) { }
+    func handleLocationReplyForNotification(notification: [NSObject : AnyObject]) { }
+    func handlePostLocationForNotification(notification: [NSObject : AnyObject]) { }
+    func handleGeneralTapForNotification(notification: [NSObject : AnyObject]) { }
+
 }
