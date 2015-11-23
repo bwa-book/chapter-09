@@ -62,4 +62,10 @@ class NotificationController: WKUserNotificationInterfaceController {
 
         return (location, region)
     }
+
+    override func suggestionsForResponseToActionWithIdentifier(identifier: String,
+        forRemoteNotification remoteNotification: [NSObject : AnyObject],
+        inputLanguage: String) -> [String] {
+        return ["Swet", "Na mate!"]
+    }
 }

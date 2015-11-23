@@ -12,7 +12,8 @@
             "identifier": "postLocationAction"
         }, {
             "title": "Reply",
-            "identifier": "locationReplyAction"
+            "identifier": "locationReplyAction",
+            "behavior": "textInput"
         }
     ]
 }
